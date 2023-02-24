@@ -17,7 +17,7 @@ export default function Sidebar() {
             <ul className="w-32 flex md:flex-col flex-row flex-grow">
                 <header className="
                     flex gap-2 items-center justify-center px-4 md:py-4
-                    border-r md:border-b border-stone-800/50">
+                    border-r md:border-0 md:border-b border-stone-800/50">
                     <Image 
                         src={Tailboard} alt="Tailboard" 
                         width={30} height={30} />
