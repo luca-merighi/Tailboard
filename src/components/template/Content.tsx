@@ -4,8 +4,8 @@ interface ContentProps {
 
 export default function Content(props: ContentProps) {
     return (
-        <div>
+        <section className="flex flex-col gap-10">
             {props.children}
-        </div>
+        </section>
     )
 }
